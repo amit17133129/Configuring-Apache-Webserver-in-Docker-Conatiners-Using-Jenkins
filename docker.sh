@@ -6,7 +6,7 @@ gpgcheck=0
 EOF
 sudo yum install docker-ce --nobest -y
 
-sudo systemtcl start docker
+sudo systemctl restart docker
 
 sudo docker ps
 
