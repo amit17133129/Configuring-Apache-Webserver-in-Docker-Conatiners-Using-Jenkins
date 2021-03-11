@@ -1,4 +1,4 @@
-cat <<EOF > /etc/yum.repos.d/docker.repo
+sudo cat <<EOF > /etc/yum.repos.d/docker.repo
 [docker]
 name=docker
 baseurl=https://download.docker.com/linux/centos/7/x86_64/stable/
