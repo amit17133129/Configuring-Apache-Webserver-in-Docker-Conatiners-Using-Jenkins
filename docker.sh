@@ -11,3 +11,5 @@ sudo systemctl restart docker
 sudo docker ps
 
 sudo docker run -dit --name myos centos:7
+
+sudo docker ps
