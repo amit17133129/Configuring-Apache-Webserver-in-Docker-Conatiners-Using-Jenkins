@@ -9,10 +9,10 @@ sudo yum install docker-ce --nobest -y
 sudo systemctl restart docker
 
 sudo docker ps
-docker rm -f $(docker ps -a)
-docker run -dit --name myos1 -p 8085:80 centos:7
-docker exec -it myos1  yum install httpd  -y
-docker exec -it myos1  yum install net-tools  -y
-docker cp    myos1:/root/a.html /var/www/html
-docker exec -it myos1   docker ps
-docker exec -it myos1  /usr/sbin/httpd/
+
+sudo docker run -dit --name myos1 -p 8085:80 centos:7
+sudo docker exec -it myos1  yum install httpd  -y
+sudo docker exec -it myos1  yum install net-tools  -y
+sudo docker cp    myos1:/root/a.html /var/www/html
+sudo docker exec -it myos1   docker ps
+sudo docker exec -it myos1  /usr/sbin/httpd/
