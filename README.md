@@ -18,9 +18,9 @@ Now this looks something like this. I used the image when job has run already
 
 After that, we need to **configure the job**. Click on the configure option then you will able to see the options to add the **git repo** and some more **SCM** options.
 
-## Configuring Gu=itHub Repo:
+## Configuring GitHub Repo:
 ![job2](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/github%20repo.jpg?raw=true)
-This will add the github repo. All the codes will be downloaded in the e=respective location. 
+This will add the github repo. All the codes will be downloaded in the respective location. 
 
 ## Github Repo Include Bash script:
 
@@ -57,7 +57,30 @@ We need to Copy the **docker.sh** script inside respective system.
 
 
 ## Job Running Automatically:
-As also the Job should run if the job run automatically then is=f any codes changes then it should run ahain so to fullfil this we are use **Poll SCM** Trigger. Also my jenkins trigger must go to github every minute * * * * *
+As also the Job should run if the job run automatically then is any codes changes then it should run ahain so to fullfil this we are use **Poll SCM** Trigger. Also my jenkins trigger must go to github every minute * * * * *
 
 ![Poll SCM](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/poll%20scm.jpg?raw=true)
 
+## Job Running: 🔵/🔴
+
+Now we need to build this and you will see output in **Red/Blue** color *Success* represented by `Blue Color 🔵` and *Fail* respresented by `Red Color 🔴`.
+
+
+![job](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/Job%20runned.jpg?raw=true)
+
+## Console Output:
+
+Now you can check Console Output
+
+
+![Console Output](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/Console%20Output%201.jpg?raw=true)
+
+![Console Output](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/Console%20Output%202.jpg?raw=true)
+
+![Console Output](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/Console%20Output%203.jpg?raw=true)
+
+Now you can check the Downloaded Files in your location.
+![downloaded files](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/file%20downloaded.jpg?raw=true)
+
+Now you can go with your public ip and port no to see the we page.
+![webpage](https://github.com/amit17133129/Configuring-Apache-Webserver-in-Docker-Conatiners-Using-Jenkins/blob/master/Project_Images/hello%20welcome%20to%20jenkins.jpg?raw=true)
